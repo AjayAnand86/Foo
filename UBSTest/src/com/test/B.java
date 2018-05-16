@@ -22,6 +22,7 @@ public class B implements Serializable{
 		os.writeObject(f);os.close();
 		}catch(Exception e){
 			e.printStackTrace();
+			System.out.println("Error");
 		}
 	}
 	
